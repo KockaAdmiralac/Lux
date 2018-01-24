@@ -1,0 +1,34 @@
+{
+    "name": "lux",
+    "version": "0.0.1",
+    "description": "Personal service management system",
+    "keywords": [
+        "wikia",
+        "service"
+    ],
+    "homepage": "https://github.com/KockaAdmiralac/Lux",
+    "license": "GPLv3",
+    "author": {
+        "name": "KockaAdmiralac",
+        "email": "1405223@gmail.com",
+        "url": "https://github.com/KockaAdmiralac"
+    },
+    "main": "index.js",
+    "scripts": {
+        "start": "node main.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/KockaAdmiralac/Lux"
+    },
+    "dependencies": {
+        "vorpal": ">=1.12.0",
+        "express": ">=4.0",
+        "body-parser": ">=1.18.2",
+        "mysql": ">=2.15.0"
+    },
+    "engines": {
+        "node": ">=8.0.0"
+    },
+    "private": true
+}
