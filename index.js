@@ -13,5 +13,5 @@ const Lux = require('./include/lux.js');
 /**
  * Starting up...
  */
-global.lux = new Lux();
-global.lux.start();
+const lux = new Lux();
+lux.start();
