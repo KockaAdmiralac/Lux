@@ -1,0 +1,6 @@
+{
+    "name": "example1",
+    "description": "Example service 1",
+    "version": [0, 0, 1],
+    "autoStart": true
+}

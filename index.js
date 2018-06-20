@@ -1,17 +1,12 @@
 /**
  * index.js
- * 
- * Main entry point of Lux
+ *
+ * Exporting point of Lux
  */
 'use strict';
 
-/**
- * Importing modules
- */
-const Lux = require('./include/lux.js');
-
-/**
- * Starting up...
- */
-const lux = new Lux();
-lux.start();
+module.exports = {
+    Client: require('./include/lux.js'),
+    Integration: require('./include/integration.js'),
+    Service: require('./include/service.js')
+};
