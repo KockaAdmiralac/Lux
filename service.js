@@ -1,18 +1,18 @@
 /**
  * service.js
  *
- * Script that starts subservices
+ * Script that starts subservices.
  */
 'use strict';
 
 /**
- * Constants
+ * Constants.
  */
 const path = process.argv[2];
 
 if (path) {
     try {
-        // TODO: CHECK IF SUBSERVICE EXTENDS SERVICE
+        // TODO: CHECK IF SUBSERVICE EXTENDS SERVICE.
         const Subservice = require(`${path}/main.js`);
         const service = new Subservice();
         service.connect();

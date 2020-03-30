@@ -1,12 +1,12 @@
 /**
  * index.js
- * 
- * Starting script of Lux
+ *
+ * Starting point of Lux.
  */
 'use strict';
 
 /**
- * Importing modules
+ * Importing modules.
  */
 const Lux = require('./include/lux.js');
 
